@@ -34,7 +34,7 @@ import { trigger, style,animate, transition, keyframes, query, stagger } from '@
 export class HomeComponent implements OnInit {
   
   // interpolation
-  itemCount: number;
+  itemCount: number = 4;
   // single way data binding
   btnText: string = 'Add an Item';
 
